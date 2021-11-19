@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+      {{ content }}
+        
+      <!-- Convert price to int -->
+      {% assign price = price | plus: 0 %}
+      
+      <!-- Sort list by lowest to highest price -->
+      {% assign sortedList = site.data.list | sort: price | reverse %}
+      <div class="container">
+        <!-- Loop through sortedd list, creating new entries for each item -->
+        {% for item in sortedList %}
+          <div class="item">
+            
+            <div class="column">
+              {% if item.image %}
+                  <img src="/assets/{{ item.image }}">
+              {% endif %}
+            </div>
+
+            <div class="column">
+              <h2 class="item-name">{{ item.name }}</h2>
+              {% if item.platform %}
+                  <p><b>Platform:</b> {{ item.platform }}</p>
+              {% endif %}
+            </div>
+            
+            <div class="column">
+              <h3 class="price">${{ item.price}} </h3>
+            </div>
+
+            <div class="column">
+              <p class="buttons"><a href="{{ item.url }}" target="_blank">View item</a></p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+  </body>
+</html>

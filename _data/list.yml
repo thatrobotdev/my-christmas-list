@@ -1,0 +1,34 @@
+- name: Pokémon Brilliant Diamond
+  platform: Nintendo Switch
+  image: pokemon-brilliant-diamond.jpeg
+  url: https://www.amazon.com/Pokémon-Brilliant-Diamond-Nintendo-Switch/dp/B08Y6HCHP8/
+  price: "59.88"
+- name: Pokkén Tournament DX
+  platform: Nintendo Switch
+  image: pokemon-tournament-dx.jpeg
+  url: https://www.amazon.com/Pokken-Tournament-DX-Nintendo-Switch/dp/B072X4LP5Z/
+  price: "59.49"
+- name: The Great Ace Attorney Chronicles
+  platform: Nintendo Switch
+  image: ace-attorney-chronicles.jpeg
+  url: https://www.amazon.com/dp/B09341VH7D/
+  price: "39.99"
+- name: "Pokémon Legends: Arceus"
+  platform: Nintendo Switch
+  image: pokemon-legends-arceus.jpeg
+  url: https://www.amazon.com/Pokémon-Legends-Arceus-Nintendo-Switch/dp/B0914YGQSH/
+  price: "59.99"
+- name: HomePod mini
+  color: Space Gray
+  image: homepod-mini.jpeg
+  url: https://www.apple.com/shop/buy-homepod/homepod-mini/space-gray
+  price: "99.00"
+- name: Tachikara SV5WSC Sensi-Tec Composite High Performance Volleyball (EA)
+  color: Blue/White/Black
+  image: volleyball.jpeg
+  url: https://www.amazon.com/gp/product/B00099YZNU
+  price: "33.70"
+- name: SPORTBIT Ball Pump with 5 needes - Push & Pull Inflating System
+  image: sportbit.jpeg
+  url: https://www.amazon.com/gp/product/B01A425KQW/
+  price: "9.99"
