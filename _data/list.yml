@@ -1,34 +1,96 @@
 - name: Pokémon Brilliant Diamond
   platform: Nintendo Switch
+  edition: Brilliant Diamond
   image: pokemon-brilliant-diamond.jpeg
   url: https://www.amazon.com/Pokémon-Brilliant-Diamond-Nintendo-Switch/dp/B08Y6HCHP8/
-  price: "59.88"
+  price: 59.88
 - name: Pokkén Tournament DX
-  platform: Nintendo Switch
+  platform: "Nintendo Switch"
   image: pokemon-tournament-dx.jpeg
   url: https://www.amazon.com/Pokken-Tournament-DX-Nintendo-Switch/dp/B072X4LP5Z/
-  price: "59.49"
+  price: 59.49
 - name: The Great Ace Attorney Chronicles
   platform: Nintendo Switch
   image: ace-attorney-chronicles.jpeg
   url: https://www.amazon.com/dp/B09341VH7D/
-  price: "39.99"
+  price: 39.99
 - name: "Pokémon Legends: Arceus"
   platform: Nintendo Switch
   image: pokemon-legends-arceus.jpeg
   url: https://www.amazon.com/Pokémon-Legends-Arceus-Nintendo-Switch/dp/B0914YGQSH/
-  price: "59.99"
+  price: 59.99
 - name: HomePod mini
   color: Space Gray
   image: homepod-mini.jpeg
   url: https://www.apple.com/shop/buy-homepod/homepod-mini/space-gray
-  price: "99.00"
+  price: 99.00
 - name: Tachikara SV5WSC Sensi-Tec Composite High Performance Volleyball (EA)
   color: Blue/White/Black
   image: volleyball.jpeg
   url: https://www.amazon.com/gp/product/B00099YZNU
-  price: "33.70"
+  price: 33.70
 - name: SPORTBIT Ball Pump with 5 needes - Push & Pull Inflating System
   image: sportbit.jpeg
   url: https://www.amazon.com/gp/product/B01A425KQW/
-  price: "9.99"
+  price: 9.99
+- name: Danganronpa Decadence
+  style: Standard Edition
+  image: danganronpa-decadence.jpg
+  url: https://www.amazon.com/dp/B097FQ5ZV4/?coliid=I9PL4MYHQCOYO&colid=396S41JDAR81A&psc=1&ref_=lv_ov_lig_dp_it
+  price: 59.99
+- name: "Sword Art Online: Hollow Realisation Deluxe Edition (Nintendo Switch)"
+  platform: "Nintendo Switch"
+  image: sword-art-online-hollow-realisation.jpg
+  url: https://www.amazon.com/Sword-Art-Online-Hollow-Realisation-Nintendo/dp/B07N7ZHHX7/
+  price: 47.99
+- name: "Sword Art Online: Fatal Bullet Complete Edition (Nintendo Switch)"
+  platform: Nintendo Switch
+  image: sao-fatal-bullet.jpg
+  price: 39.99
+  url: https://www.amazon.com/Sword-Art-Online-Bullet-Complete-Nintendo/dp/B07SWDFN4N/
+- name: "Monster Hunter Rise - Nintendo Switch"
+  platform: Nintendo Switch
+  image: monster-hunter-rise.jpg
+  price: 44.82
+  condition: New
+  url: https://www.amazon.com/Monster-Hunter-Rise-Nintendo-Switch/dp/B08JJ37XVW/
+- name: Rune Factory 4 Special (Nintendo Switch)
+  platform: Nintendo Switch
+  image: rune-factory-4.jpg
+  price: 32.50
+  url: https://www.amazon.com/dp/B081Y1C76B/
+- name: "Hyrule Warriors: Definitive Edition - Nintendo Switch"
+  platform: Nintendo Switch
+  image: hyrule-warriors.jpg
+  price: 59.99
+  url: https://www.amazon.com/dp/B078Y3HVK8/
+- name: Pokemon Shield + Pokemon Shield Expansion Pass - Nintendo Switch
+  platform: Nintendo Switch
+  edition: Pokémon Shield + Pokémon Shield Expansion Pass
+  price: 89.98
+  image: shield-retail-expansion-pass.jpg
+  url: https://www.amazon.com/dp/B08KHXPSYJ/
+- name: Pokémon Sword Expansion Pass or Pokémon Shield Expansion Pass (Retail Version) - [Switch Digital Code]
+  platform: Switch Digital Code
+  edition: Sword Expansion Pass or Shield Expansion
+  price: 29.99
+  image: pokémon-expansion-pass.jpg
+  url: https://www.amazon.com/dp/B083V9FSJM/
+- name: "Little Town Hero: Big Idea Edition - Nintendo Switch"
+  platform: Nintendo Switch
+  price: 47.99
+  image: little-town-hero.jpg
+  url: https://www.amazon.com/dp/B084DYG6XF/
+- name: "Fire Emblem: Three Houses"
+  platform: Nintendo Switch
+  edition: Standard
+  price: 49.94
+  image: fire-emblem-three-houses.jpg
+  url: https://www.amazon.com/dp/B07DK13HKX/
+- name: Kindle Oasis Essentials Bundle including Kindle Oasis (Graphite, Ad-Supported), Amazon Leather Cover, and Power Adapter
+  price: 289.97
+  storage-capacity: "32GB"
+  color: "Leather-Black"
+  url: https://www.amazon.com/dp/B07RSTQZ9M/
+  image: kindle.jpg
+

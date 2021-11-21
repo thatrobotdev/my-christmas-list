@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -22,11 +22,7 @@ img {
     background-color: rgb(180, 255, 180);
 }
 
-.item-name {
-    padding-left: 1rem;
-}
-
-.price {
+.item-name, .additional-info {
     padding-left: 1rem;
 }
 
@@ -35,23 +31,14 @@ img {
     max-width: 100%;
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-  @media screen and (min-width: 1001px) {
-    .item-name {
-      font-size: 23px;
-    }
+@media screen and (min-width: 1001px) {
+  .item-name {
+    font-size: 23px;
   }
+}
   
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 1000px) {
-    .item-name {
-      font-size: 20px;
-    }
+@media screen and (max-width: 1000px) {
+  .item-name {
+    font-size: 20px;
   }
-
-  /* @media screen and (max-width: 700px) {
-    .item {
-      grid-auto-rows: 1fr;
-      grid-template-columns: 1fr;
-    }
-  } */
+}

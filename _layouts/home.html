@@ -7,15 +7,12 @@
   </head>
   <body>
       {{ content }}
-        
-      <!-- Convert price to int -->
-      {% assign price = price | plus: 0 %}
       
       <!-- Sort list by lowest to highest price -->
-      {% assign sortedList = site.data.list | sort: price | reverse %}
+      {% assign sorted = site.data.list | sort: "price" %}
       <div class="container">
         <!-- Loop through sortedd list, creating new entries for each item -->
-        {% for item in sortedList %}
+        {% for item in sorted %}
           <div class="item">
             
             <div class="column">
@@ -26,17 +23,45 @@
 
             <div class="column">
               <h2 class="item-name">{{ item.name }}</h2>
-              {% if item.platform %}
-                  <p><b>Platform:</b> {{ item.platform }}</p>
-              {% endif %}
+              <div class="additional-info">
+                {% if item.platform %}
+                    <p><b>Platform:</b> {{ item.platform }}</p>
+                {% endif %}
+                {% if item.edition %}
+                    <p><b>Edition:</b> {{ item.edition }}</p>
+                {% endif %}
+                {% if item.style %}
+                    <p><b>Style:</b> {{ item.style }}</p>
+                {% endif %}
+                {% if item.storage-capacity %}
+                    <p><b>Storage Capacity:</b> {{ item.storage-capacity }}</p>
+                {% endif %}
+                {% if item.color %}
+                    <p><b>Color:</b> {{ item.color }}</p>
+                {% endif %}
+                {% if item.condition %}
+                    <p><b>Condition:</b> {{ item.condition }}</p>
+                {% endif %}
+            </div>
             </div>
             
             <div class="column">
-              <h3 class="price">${{ item.price}} </h3>
+              <!-- If the last digit of the number is 0, the number will display without
+              an extra "padding" 0, add it back in. -->
+              {% assign lastDigit = item.price | modulo: 0.1 %}
+              <h3 class="price">${{ item.price }}{% if lastDigit == 0 %}0{% endif %}</h3>
             </div>
 
             <div class="column">
-              <p class="buttons"><a href="{{ item.url }}" target="_blank">View item</a></p>
+              {% if item.url %}
+                <p>
+                  <a href="{{ item.url }}" class="button" target="_blank">View item</a>
+                </p>
+              {% else %}
+                <p>
+                  <a>No link avaliable.</a>
+                </p>
+              {% endif %}
             </div>
           </div>
         {% endfor %}
