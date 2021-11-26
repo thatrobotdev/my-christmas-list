@@ -97,4 +97,10 @@
   price: 48.67
   image: undertale.jpeg
   url: https://www.amazon.com/Undertale-Nintendo-Switch-Standard-Physical/dp/B07HGJLHSP
+- name: Airpods
+  generation: 3rd generation
+  url: https://www.apple.com/airpods-3rd-generation
+  price: 179
+  image: airpods.jpeg
+
 

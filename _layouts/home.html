@@ -24,6 +24,9 @@
             <div class="column">
               <h2 class="item-name">{{ item.name }}</h2>
               <div class="additional-info">
+                {% if item.generation %}
+                    <p><b>{{ item.generation }}</b></p>
+                {% endif %}
                 {% if item.platform %}
                     <p><b>Platform:</b> {{ item.platform }}</p>
                 {% endif %}
