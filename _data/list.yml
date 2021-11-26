@@ -100,7 +100,7 @@
 - name: Airpods
   generation: 3rd generation
   url: https://www.apple.com/airpods-3rd-generation
-  price: 179
+  price: 179.00
   image: airpods.jpeg
 
 
